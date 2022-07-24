@@ -1,0 +1,96 @@
+
+
+/* Small devices (landscape phones,less than 767px) */
+@media (max-width: 767px) {
+    .column-1,
+    .column-2 {
+        width: 100%;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .column-1 {
+        width: 50%;
+    }
+    .column-2 {
+        width: 100%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .column-2,
+    .column-1 {
+        width: 33%;
+    }
+}
+
+
+
+body{
+    background-color: #7ecae6;
+}
+.header, .footer{
+    background-color: aliceblue;
+    font-family: sans-serif;
+    font-size: 24px;
+    color:#355561;
+    position: relative;
+}
+.header h1{
+    padding-left: 100px;
+
+}
+#informaation_stu>h1, #information_ins>h1{
+  font-style: bold;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+/*style for the logo*/
+div#logo_box img {
+    width: 30%;
+}
+div#logo_box {
+  width: 12%;
+  position: relative;
+  top: 2px;
+}
+
+p{
+    font-family: sans-serif;
+    color: #184e61;
+    font-size: 18px;
+}
+    
+
+img{
+    width: 50px;
+
+}
+ 
+  #stu, #ins{
+    margin: 5px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #355561;
+    text-align: center;
+  }  
+  #infoStu, #infoIns{
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family: serif;
+  }
+  .mb-5, .my-5 {
+    margin-top: 2rem;
+    margin-bottom: 3rem!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    /* margin-top: 5px; */
+    margin-bottom: 5px;
+}
+  
+  

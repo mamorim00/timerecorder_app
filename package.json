@@ -1,0 +1,31 @@
+{
+  "name": "semester-project-mamorim00",
+  "version": "0.0.1",
+  "description": "Ducs app for software enginners ",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCS-Drury/semester-project-mamorim00.git"
+  },
+  "keywords": [
+    "ducs",
+    "timelog",
+    "semester_project"
+  ],
+  "author": "Marina Amorim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MCS-Drury/semester-project-mamorim00/issues"
+  },
+  "homepage": "https://github.com/MCS-Drury/semester-project-mamorim00#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.14"
+  }
+}

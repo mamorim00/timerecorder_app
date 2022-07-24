@@ -1,0 +1,194 @@
+/* Small devices (landscape phones,less than 767px) */
+@media (max-width: 767px) {
+    .column-1,
+    .column-2 {
+        width: 100%;
+    }
+  }
+  
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .column-1 {
+        width: 50%;
+    }
+    .column-2 {
+        width: 100%;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .column-2,
+    .column-1 {
+        width: 33%;
+    }
+  }
+  
+  
+  
+  body{
+      background-color: #7ecae6;
+  }
+  .header, .footer{
+      background-color: aliceblue;
+      font-family: sans-serif;
+      font-size: 24px;
+      color:#355561;
+      position: relative;
+  }
+  .header h1{
+      padding-left: 100px;
+  
+  }
+  #informaation_stu>h1, #information_ins>h1{
+    font-style: bold;
+    font-family: sans-serif;
+    font-size: 24px;
+  }
+  
+  /*style for the logo*/
+  div#logo_box img {
+      width: 30%;
+  }
+  div#logo_box {
+    width: 12%;
+    position: relative;
+    top: 2px;
+  }
+  
+  p{
+      font-family: sans-serif;
+      color: #184e61;
+      font-size: 18px;
+  }
+      
+  
+  
+  /*style for the login form*/
+ 
+    form p{
+      font-family: sans-serif;
+      font-weight: bold;
+      margin-left: 12px;
+      
+    }
+   
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #7ecae6;
+      box-sizing: border-box;
+    }
+    
+    
+    button {
+      background-color: #38b4e0;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    .footer{
+        font-size: 1em;
+  
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+   
+  .dropbtn {
+      background-color: #184e61;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: #355561;
+    }
+    
+    
+    .dropdown {
+      position: fixed;
+      display: inline-block;
+      right: 150px;
+      top: 26px;
+  
+    }
+    
+   
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #355561;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+  
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    form p{
+     color: #ddd;
+    }
+    
+    
+    .dropdown-content a:hover {background-color: #ddd}
+    
+    
+    .show {display:block;}
+  
+    div h1{
+      margin: 5px;
+      font-family: sans-serif;
+      font-size: 30px;
+      color: #355561;
+      text-align: center;
+    }  
+    div p{
+      margin-right: 100px;
+      margin-left: 100px;
+      font-family: serif;
+    }
+    
+    
+  .floatright{
+      float: right; 
+   }
+   
+   .floatleft{
+       float: left;
+   }
+   
+
+   li{
+       background-color: aliceblue;
+       color: #184e61;
+       border: 2px solid #184e61;
+   }
+
+   #sessionList{
+    margin: 8px; 
+   }
+
+   #showCodes{
+     margin: 8px;
+     background-color: #7ecae6;
+      color:white;
+      border: 2px solid #184e61;
+
+
+   }
