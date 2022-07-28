@@ -1,3 +1,3 @@
 # timerecorder_app
 
-finao project for app development 1
+final project for app development 1
